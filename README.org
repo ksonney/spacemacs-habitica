@@ -6,6 +6,7 @@
 - [[#description][Description]]
 - [[#install][Install]]
 - [[#keybindings][Keybindings]]
+- [[#faq][FAQ]]
 
 * Description
 This layer adds support for ryjm's habitrpg.el Habitica integration.
@@ -22,7 +23,7 @@ More information on habitrpg.el can be found at https://github.com/ryjm/habitrpg
 To use this configuration layer, you will need to do the following :
   
 1. clone it to =~/.emacs.d/private/habitrpg= like so: 
-   git clone https://github.com/ksonney/spacemacs-habitica.git ~/.emacs.d/private/habitrpg  
+   git clone https://github.com/ksonney/spacemacs-habitica.git ~/.emacs.d/private/habitica
 2. Open up your =~/.spacemacs= file in, well, spacemacs.
 3. Add =habitrpg= to the =dotspacemacs-configuration-layers=
 4. Scroll down to the =spacemacs/user-config= section and add the following
@@ -35,3 +36,4 @@ To use this configuration layer, you will need to do the following :
 - The hook to =org-after-todo-state-change-hook= is transparent to the user.
 - To bring up the habitrpg.el habitica status view, use SPC-a-H
 - Using =habitrpg-add= as a standalone function is currently unmapped
+* FAQ

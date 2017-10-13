@@ -12,17 +12,17 @@
 ;;; Commentary:
 
 ;; - If PACKAGE is not referenced by any other Spacemacs layer, define a
-;;   function `habitrpg/init-PACKAGE' to load and initialize the package.
+;;   function `habitaca/init-habitrpg' to load and initialize the package.
 
 ;;; Code:
 
-(defconst habitrpg-packages
+(defconst habitica-packages
   '(
     (habitrpg :location (recipe
                          :fetcher github
                          :repo "ryjm/habitrpg.el"))))
 
-(defun habitrpg/init-habitrpg ()
+(defun habitica/init-habitrpg ()
   (use-package habitrpg
     :config
       (use-package org-habit)
