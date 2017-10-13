@@ -22,19 +22,18 @@ More information on habitrpg.el can be found at https://github.com/ryjm/habitrpg
 * Install
 To use this configuration layer, you will need to do the following :
   
-1. clone it to =~/.emacs.d/private/habitrpg= like so:
+- clone it to =~/.emacs.d/private/habitrpg= like so:
 #+BEGIN_SRC shell
 git clone https://github.com/ksonney/spacemacs-habitica.git ~/.emacs.d/private/habitica
 #+END_SRC
-2. Open up your =~/.spacemacs= file in, well, spacemacs.
-3. Add =habitrpg= to the =dotspacemacs-configuration-layers=
-4. Scroll down to the =spacemacs/user-config= section and add the following
-   lines with your habitica API keys
+- Open up your =~/.spacemacs= file in, well, spacemacs.
+- Add =habitrpg= to the =dotspacemacs-configuration-layers=
+- Scroll down to the =spacemacs/user-config= section and add the following lines with your habitica API keys
 #+BEGIN_SRC emacs-lisp
    (setq habitrpg-api-user "ID-HERE")
    (setq habitrpg-api-token "TOKEN-HERE")
 #+END_SRC
-5. Save your =~/.spacemacs= file and restart (SPC-q-r)
+- Save your =~/.spacemacs= file and restart (SPC-q-r)
 
 * Keybindings
 - The hook to =org-after-todo-state-change-hook= is transparent to the user.
