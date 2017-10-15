@@ -1,4 +1,4 @@
-#+TITLE: habitrpg layer
+#+TITLE: habitca layer
 
 [[file:img/habitica_logo.png]]
 
@@ -22,7 +22,7 @@ More information on habitrpg.el can be found at https://github.com/ryjm/habitrpg
 * Install
 To use this configuration layer, you will need to do the following :
   
-- clone it to =~/.emacs.d/private/habitrpg= like so:
+- clone it to =~/.emacs.d/private/habitica= like so:
 #+BEGIN_SRC shell
 git clone https://github.com/ksonney/spacemacs-habitica.git ~/.emacs.d/private/habitica
 #+END_SRC
